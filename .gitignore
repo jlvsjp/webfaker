@@ -1,0 +1,5 @@
+*.pyc
+website/
+record.csv
+index.html
+*.log
