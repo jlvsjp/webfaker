@@ -1,4 +1,4 @@
-# FakeSite
+# WebFaker
 
 Make a fake site to cheat others for catching their passwords.
 
@@ -17,6 +17,10 @@ python fakesite.py clone http(s)://yourtarget.com/ --path /login.jsp
 ```
 
 The tool will enable proxy mode and logging `/login.jsp` traffic.
+
+### Extension
+
+By add --ext to specified a py extension, and `ext.py` file should be a template.
 
 
 ## Specified a local HTML project.
